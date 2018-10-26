@@ -1,0 +1,11 @@
+div, ul {
+    width: 100%;
+}
+
+li {
+    width: 33%;
+}
+
+nav, .bg-light {
+    background-color: rgb(204, 234, 255)!important;
+}

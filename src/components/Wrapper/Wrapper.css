@@ -1,0 +1,9 @@
+main {
+    margin-top: 40px;
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 1000px;
+    }
+}

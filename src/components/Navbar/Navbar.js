@@ -4,9 +4,9 @@ import "./Navbar.css";
 const Navbar = props => (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div>
-            <ul className="navbar-nav">
+            <ul className="navbar-nav text-center">
                 <li className="nav-item">
-                    <a className="navbar-brand" href="#">Clicky Game</a>
+                    <a className="navbar-brand" href="/">Clicky Game</a>
                 </li>
                 <li className="nav-item">
                     {
