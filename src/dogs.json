@@ -7,56 +7,56 @@
     {
         "id": 2,
         "name": "aussie",
-        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/aussie.jpg"
+        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/aussie.jpg?raw=true"
     },
     {
         "id": 3,
         "name": "bernese",
-        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/bernese.jpg"
+        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/bernese.jpg?raw=true"
     },
     {
         "id": 4,
         "name": "bulldog",
-        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/bulldog.jpg"
+        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/bulldog.jpg?raw=true"
     },
     {
         "id": 5,
         "name": "dachshund",
-        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/dachshund.jpg"
+        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/dachshund.jpg?raw=true"
     },
     {
         "id": 6,
         "name": "german",
-        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/german.jpg"
+        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/german.jpg?raw=true"
     },
     {
         "id": 7,
         "name": "golden",
-        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/golden.jpg"
+        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/golden.jpg?raw=true"
     },
     {
         "id": 8,
         "name": "husky",
-        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/husky.jpg"
+        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/husky.jpg?raw=true"
     },
     {
         "id": 9,
         "name": "lab",
-        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/lab.png"
+        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/lab.png?raw=true"
     },
     {
         "id": 10,
         "name": "pitbulls",
-        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/pitbulls.jpg"
+        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/pitbulls.jpg?raw=true"
     },
     {
         "id": 11,
         "name": "pomsky",
-        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/pomsky.jpg"
+        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/pomsky.jpg?raw=true"
     },
     {
         "id": 12,
         "name": "samoyed",
-        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/samoyed.jpg"
+        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/samoyed.jpg?raw=true"
     }
 ]
