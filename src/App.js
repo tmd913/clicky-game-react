@@ -70,7 +70,8 @@ class App extends Component {
         clicked: [],
         repeat: false,
         score: 0,
-        topScore: score > this.state.topScore ? score : this.state.topScore
+        topScore: score > this.state.topScore ? score : this.state.topScore,
+        firstTurn: true
       });
     }, 1000);
     
