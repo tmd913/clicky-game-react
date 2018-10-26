@@ -90,7 +90,7 @@ class App extends Component {
       firstTurn: false
     };
 
-    if (repeatClick || this.state.score === 12) {
+    if (repeatClick || score === 12) {
       this.handleGameOver(!repeatClick, score);
     } else {
       this.updateState(newState);
