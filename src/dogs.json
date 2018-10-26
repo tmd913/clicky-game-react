@@ -2,61 +2,61 @@
     {
         "id": 1,
         "name": "pug",
-        "image": "/images/cole.png"
+        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/cole.png"
     },
     {
         "id": 2,
         "name": "aussie",
-        "image": "/images/aussie.jpg"
+        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/aussie.jpg"
     },
     {
         "id": 3,
         "name": "bernese",
-        "image": "/images/bernese.jpg"
+        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/bernese.jpg"
     },
     {
         "id": 4,
         "name": "bulldog",
-        "image": "/images/bulldog.jpg"
+        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/bulldog.jpg"
     },
     {
         "id": 5,
         "name": "dachshund",
-        "image": "/images/dachshund.jpg"
+        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/dachshund.jpg"
     },
     {
         "id": 6,
         "name": "german",
-        "image": "/images/german.jpg"
+        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/german.jpg"
     },
     {
         "id": 7,
         "name": "golden",
-        "image": "/images/golden.jpg"
+        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/golden.jpg"
     },
     {
         "id": 8,
         "name": "husky",
-        "image": "/images/husky.jpg"
+        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/husky.jpg"
     },
     {
         "id": 9,
         "name": "lab",
-        "image": "/images/lab.png"
+        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/lab.png"
     },
     {
         "id": 10,
         "name": "pitbulls",
-        "image": "/images/pitbulls.jpg"
+        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/pitbulls.jpg"
     },
     {
         "id": 11,
         "name": "pomsky",
-        "image": "/images/pomsky.jpg"
+        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/pomsky.jpg"
     },
     {
         "id": 12,
         "name": "samoyed",
-        "image": "/images/samoyed.jpg"
+        "image": "https://github.com/tmd913/clicky-game-react/blob/master/public/images/samoyed.jpg"
     }
 ]
