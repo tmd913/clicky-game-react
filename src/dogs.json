@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "pug",
+        "image": "/images/cole.png"
+    },
+    {
+        "id": 2,
+        "name": "aussie",
+        "image": "/images/aussie.jpg"
+    },
+    {
+        "id": 3,
+        "name": "bernese",
+        "image": "/images/bernese.jpg"
+    },
+    {
+        "id": 4,
+        "name": "bulldog",
+        "image": "/images/bulldog.jpg"
+    },
+    {
+        "id": 5,
+        "name": "dachshund",
+        "image": "/images/dachshund.jpg"
+    },
+    {
+        "id": 6,
+        "name": "german",
+        "image": "/images/german.jpg"
+    },
+    {
+        "id": 7,
+        "name": "golden",
+        "image": "/images/golden.jpg"
+    },
+    {
+        "id": 8,
+        "name": "husky",
+        "image": "/images/husky.jpg"
+    },
+    {
+        "id": 9,
+        "name": "lab",
+        "image": "/images/lab.png"
+    },
+    {
+        "id": 10,
+        "name": "pitbulls",
+        "image": "/images/pitbulls.jpg"
+    },
+    {
+        "id": 11,
+        "name": "pomsky",
+        "image": "/images/pomsky.jpg"
+    },
+    {
+        "id": 12,
+        "name": "samoyed",
+        "image": "/images/samoyed.jpg"
+    }
+]
