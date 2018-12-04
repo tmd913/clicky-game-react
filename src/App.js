@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Container from './components/Container';
 import dogs from './dogs.json';
 import Character from './components/Character';
+import "./App.css";
 
 class App extends Component {
   state = {
@@ -20,6 +21,7 @@ class App extends Component {
     this.setState({ dogs: dogs });
   }
 
+  // generate character component for each dog
   displayDogs = () => {
     return this.state.dogs.map((dog, i) =>
       <Character
@@ -64,6 +66,7 @@ class App extends Component {
   handleGameOver = (winner, score) => {
     this.updateState({repeat: !winner});
 
+    // slight delay before new game
     setTimeout(() => {
       this.updateState({
         dogs: dogs,
@@ -77,11 +80,16 @@ class App extends Component {
     
   }
 
+  // check if dog has been clicked previously
   checkClickedDogs = id => {
+    // check clicked dogs for most recently clicked dog
     let repeatClick = this.state.clicked.includes(id) ? true : false
+    // add most recently clicked dog to clicked array
     let newClicked = [...this.state.clicked, id];
     let shuffledDogs = this.shuffleDogs();
+    // increment score if dog was not previously clicked
     let score = repeatClick ? this.state.score : this.state.score + 1;
+    // create obj which represents new state
     let newState = {
       dogs: shuffledDogs,
       clicked: newClicked,
@@ -90,6 +98,7 @@ class App extends Component {
       firstTurn: false
     };
 
+    // check if game is over, win or lose
     if (repeatClick || score === 12) {
       this.handleGameOver(!repeatClick, score);
     } else {
@@ -99,7 +108,7 @@ class App extends Component {
 
   render() {
     return (
-      <>
+      <div className="divBody">
         <Navbar firstTurn={this.state.firstTurn} repeat={this.state.repeat} score={this.state.score} topScore={this.state.topScore} />
         <Wrapper>
           <Container>
@@ -107,7 +116,7 @@ class App extends Component {
           </Container>
         </Wrapper>
         <Footer />
-      </>
+      </div>
     );
   }
 }
