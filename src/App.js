@@ -14,7 +14,9 @@ class App extends Component {
     repeat: false,
     score: 0,
     topScore: 0,
-    firstTurn: true
+    firstTurn: true,
+    shake: false,
+    winner: false
   }
 
   componentDidMount() {
@@ -29,6 +31,8 @@ class App extends Component {
         src={dog.image}
         id={dog.id}
         handleClick={this.handleClick}
+        shake={this.state.shake}
+        winner={this.state.winner}
       />)
   }
 
@@ -64,7 +68,7 @@ class App extends Component {
   }
 
   handleGameOver = (winner, score) => {
-    this.updateState({repeat: !winner});
+    this.updateState({repeat: !winner, shake: !winner, winner: winner});
 
     // slight delay before new game
     setTimeout(() => {
@@ -74,7 +78,9 @@ class App extends Component {
         repeat: false,
         score: 0,
         topScore: score > this.state.topScore ? score : this.state.topScore,
-        firstTurn: true
+        firstTurn: true,
+        shake: false,
+        winner: false
       });
     }, 1000);
     
@@ -99,7 +105,7 @@ class App extends Component {
     };
 
     // check if game is over, win or lose
-    if (repeatClick || score === 12) {
+    if (repeatClick || score === 3) {
       this.handleGameOver(!repeatClick, score);
     } else {
       this.updateState(newState);
@@ -109,7 +115,7 @@ class App extends Component {
   render() {
     return (
       <div className="divBody">
-        <Navbar firstTurn={this.state.firstTurn} repeat={this.state.repeat} score={this.state.score} topScore={this.state.topScore} />
+        <Navbar firstTurn={this.state.firstTurn} repeat={this.state.repeat} score={this.state.score} topScore={this.state.topScore} winner={this.state.winner} />
         <Wrapper>
           <Container>
             {this.displayDogs()}

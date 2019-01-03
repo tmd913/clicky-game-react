@@ -1,9 +1,15 @@
 main {
-    margin-top: 10px;
+    margin-top: 20px;
     flex: 1;
 }
 
 @media (min-width: 992px) {
+    .container {
+        max-width: 800px;
+    }
+}
+
+@media (min-width: 1500px) {
     .container {
         max-width: 1000px;
     }
