@@ -105,7 +105,7 @@ class App extends Component {
     };
 
     // check if game is over, win or lose
-    if (repeatClick || score === 3) {
+    if (repeatClick || score === 12) {
       this.handleGameOver(!repeatClick, score);
     } else {
       this.updateState(newState);
