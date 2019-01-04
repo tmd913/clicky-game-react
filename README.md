@@ -6,4 +6,4 @@ React memory game where you try not to click the same dog twice. A winning score
 
 https://tmd913.github.io/clicky-game-react/
 
-
+![screenshot]https://raw.githubusercontent.com/tmd913/clicky-game-react/master/public/images/screenshot.png?raw=true
